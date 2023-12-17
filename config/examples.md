@@ -1,6 +1,6 @@
 <script setup>
 import ExampleButton from './.vitepress/components/ExampleButton.vue'
-import { vBalloon, vSanja, vRadomir, vMarko, vNikola, vIlinka, vJelena } from '../src/index';
+import { vBalloon, vSanja, vRadomir, vMarko, vNikola, vIlinka, vJelena } from '../src/index'
 </script>
 <style>
   *, ::before, ::after {
