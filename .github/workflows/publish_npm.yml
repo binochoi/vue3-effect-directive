@@ -29,4 +29,8 @@ jobs:
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
+        
+        export NPM_USERNAME=binochoi
+        export NPM_EMAIL=bonoself@gmail.com
+        
         npm publish
