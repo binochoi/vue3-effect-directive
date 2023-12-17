@@ -1,0 +1,29 @@
+name: Publish to npm
+on:
+  push:
+    tags:
+        - "*"
+    paths-ignore:
+      - '.gitignore'
+      - '.vscode'
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 20
+    
+    - name: Build libray
+      run: |-
+        npm i -g pnpm
+        pnpm i --prod
+        pnpm build
+        
+    - name: Publish to NPM
+      run: |
+        echo "$SSH_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        npm publish
