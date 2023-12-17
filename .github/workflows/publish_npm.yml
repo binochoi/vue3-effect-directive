@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 20
     
-    - name: Build libray
+    - name: Build a libray
       run: |-
         npm i -g pnpm
         pnpm i
