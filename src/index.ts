@@ -10,4 +10,5 @@ export * from './directives/marko';
 
 export * from './types/index';
 
-export { default } from './plugin';
+import plugin from './plugin';
+export default plugin;
