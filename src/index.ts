@@ -1,3 +1,5 @@
+import './assets/animations/index.css';
+
 export * from './directives/balloon';
 export * from './directives/sanja';
 export * from './directives/jelena';

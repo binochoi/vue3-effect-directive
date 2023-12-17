@@ -28,7 +28,7 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
     animation: ${key}-effect ${duration}ms ease-out forwards;
   ${styles}`;
   el.append(effectElement);
-  // setTimeout(() => effectElement.remove(), duration);
+  setTimeout(() => effectElement.remove(), duration);
 };
 export const createEffectDirective = (localOptions?: EffectOptions): Directive => {
   const globalOptions = useGlobalOption();

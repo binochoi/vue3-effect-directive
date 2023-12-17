@@ -1,3 +1,3 @@
-# effect wrapper
-https://github.com/codrops/ClickEffects
-
+```bash
+pnpm add vue3-effect-directive
+```
