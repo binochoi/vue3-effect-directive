@@ -2,7 +2,7 @@ name: Publish to npm
 on:
   push:
     tags:
-        - "*v"
+      - "*v"
     paths-ignore:
       - '.gitignore'
       - '.vscode'
@@ -24,6 +24,6 @@ jobs:
         
     - name: Publish to NPM
       run: |
-        echo "$SSH_KEY" > ~/.ssh/id_rsa
+        echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         npm publish
