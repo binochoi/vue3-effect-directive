@@ -10,4 +10,4 @@ export * from './directives/marko';
 
 export * from './types/index';
 
-export * from './composables/useGlobalOption';
+export { default } from './plugin';
