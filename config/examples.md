@@ -1,6 +1,7 @@
 <script setup>
 import ExampleButton from './.vitepress/components/ExampleButton.vue'
 import { vBalloon, vSanja, vRadomir, vMarko, vNikola, vIlinka, vJelena } from '../src/index'
+import README from '../README.md';
 </script>
 <style>
   *, ::before, ::after {
@@ -34,43 +35,4 @@ Look at all the effects
 <ExampleButton v-jelena />
 
 
-## Prerequisites
-
-### install style bundle
-```js
-import 'vue3-effect-directive/dist/assets/animations/index.css'
-```
-### install each style
-```js
-import { vSanja } from 'vue3-effect-directive'
-import 'vue3-effect-directive/dist/assets/animations/sanja.css'
-```
-
-## Easily usage
-```vue
-<script setup>
-import { vSanja } from 'vue3-effect-directive'
-</script>
-<template>
-  <button v-sanja>click!</button>
-</template>
-```
-
-### with options
-```vue
-<script setup>
-import { vSanja, Options } from 'vue3-effect-directive'
-const options: Options = { ... }
-</script>
-<template>
-  <button v-sanja="options">click!</button>
-</template>
-```
-
-## Global option
-```js
-const app = createApp(App);
-app.use(effectDirective, {
-  color: 'red',
-})
-```
+<README />
