@@ -30,7 +30,9 @@ jobs:
         echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         
-        export NPM_USERNAME=binochoi
+        export NPM_AUTH_TOKEN="${{ secrets.SSH_KEY }}"
         export NPM_EMAIL=bonoself@gmail.com
+        echo "_auth = $NPM_AUTH_TOKEN" > ~/.npmrc
+        echo "email = $NPM_EMAIL" >> ~/.npmrc
         
         npm publish
