@@ -66,3 +66,11 @@ const options: Options = { ... }
   <button v-sanja="options">click!</button>
 </template>
 ```
+
+## Global option
+```js
+const app = createApp(App);
+app.use(effectDirective, {
+  color: 'red',
+})
+```
