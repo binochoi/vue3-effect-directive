@@ -19,7 +19,7 @@ jobs:
     - name: Build libray
       run: |-
         npm i -g pnpm
-        pnpm i --prod
+        pnpm i
         pnpm build
         
     - name: Publish to NPM
