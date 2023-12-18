@@ -24,15 +24,16 @@ jobs:
         pnpm i
         pnpm build
         
+    - name: npm global config
+      run: |
+        git config --global user.email "bonoself@gmail.com"
+        git config --global user.name "bino"
+        
     - name: Publish to NPM
       run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        
-        export NPM_AUTH_TOKEN="${{ secrets.SSH_KEY }}"
-        export NPM_EMAIL=bonoself@gmail.com
-        echo "_auth = $NPM_AUTH_TOKEN" > ~/.npmrc
-        echo "email = $NPM_EMAIL" >> ~/.npmrc
-        
-        npm publish
+        echo "$SSH_PRIVATE_KEY" > ssh_key.pem
+        chmod 600 ssh_key.pem
+        npm version patch
+        npm publish --access public
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
