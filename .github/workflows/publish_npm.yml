@@ -31,8 +31,6 @@ jobs:
         
     - name: Publish to NPM
       run: |
-        echo "$SSH_PRIVATE_KEY" > ssh_key.pem
-        chmod 600 ssh_key.pem
         npm version patch
         npm publish --access public
       env:
