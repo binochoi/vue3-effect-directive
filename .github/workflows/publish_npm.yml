@@ -19,13 +19,13 @@ jobs:
         node-version: 20
         registry-url: 'https://registry.npmjs.org/'
     
-    - name: Build a libray
+    - name: Build
       run: |-
         npm i -g pnpm
         pnpm i
         pnpm build
         
-    - name: npm global config
+    - name: global config
       run: |
         git config --global user.email "bonoself@gmail.com"
         git config --global user.name "bino"
