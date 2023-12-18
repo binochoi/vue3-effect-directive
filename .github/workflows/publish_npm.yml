@@ -36,4 +36,4 @@ jobs:
         npm version patch
         npm publish --access public
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
