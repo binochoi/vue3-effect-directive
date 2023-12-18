@@ -1,7 +1,9 @@
 # vue3-effect-directive
 A library inspired by [clickEffect](https://github.com/codrops/ClickEffects) and easily used as a vue directive
 
-## Install
+[Documentation](https://vue3-effect-directive.pages.dev/)
+
+## Installation
 ```bash
 pnpm add vue3-effect-directive
 ```
