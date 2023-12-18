@@ -48,3 +48,13 @@ app.use(effectDirective, {
   color: 'red',
 })
 ```
+
+## With Nuxt 3
+You just only to do is to add full css assets.
+```js
+export default defineNuxtConfig({
+  css: [
+    'vue3-effect-directive/dist/assets/animations/index.css',
+  ],
+});
+```
