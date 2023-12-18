@@ -25,6 +25,11 @@ jobs:
         pnpm i
         pnpm build
         
+    - name: npm global config
+      run: |
+        git config --global user.email "bonoself@gmail.com"
+        git config --global user.name "bino"
+      
     - name: Publish to NPM
       run: |
         npm version patch
