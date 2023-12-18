@@ -23,7 +23,6 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
     margin: calc(${width} / -2) 0 0 calc(${width} / -2);
     width: ${width};
     height: ${width};
-    border-radius: 9999px;
     pointer-events: none;
     animation: ${key}-effect ${duration}ms ease-out forwards;
   ${styles}`;
