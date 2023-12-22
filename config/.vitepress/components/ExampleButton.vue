@@ -5,8 +5,8 @@
 </template>
 <style scoped>
 button {
-    width: 120px;
-    height: 120px;
+    width: 1120px;
+    height:190px;
     line-height: 50px;
     background: #444;
     border-radius: 10px;

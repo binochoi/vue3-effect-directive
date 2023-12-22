@@ -19,9 +19,9 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
   effectElement.style.cssText = `
     --effect-color: ${color};
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: calc(${width} / -2) 0 0 calc(${width} / -2);
+    top: 0;
+    left: 0;
+    margin: 0;
     width: ${width};
     height: ${height};
     pointer-events: none;
