@@ -14,6 +14,7 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
   // eslint-disable-next-line no-param-reassign
   el.style.position = 'relative';
   const width = `${options?.width || el.offsetWidth}px`;
+  const height = `${options?.height || el.offsetHeight}px`;
   const effectElement = document.createElement('div');
   effectElement.style.cssText = `
     --effect-color: ${color};
@@ -22,7 +23,7 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
     left: 50%;
     margin: calc(${width} / -2) 0 0 calc(${width} / -2);
     width: ${width};
-    height: ${width};
+    height: ${height};
     pointer-events: none;
     animation: ${key}-effect ${duration}ms ease-out forwards;
   ${styles}`;

@@ -1,6 +1,7 @@
 export type Options = {
     /** custom width */
     width?: number;
+    height?: number;
     color?: string;
     /** animation key */
     styles?: string;
