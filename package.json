@@ -1,6 +1,6 @@
 {
   "name": "vue3-effect-directive",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "type": "module",
   "files": [
     "dist"

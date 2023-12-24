@@ -8,6 +8,8 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
   const {
     key,
     duration = 1000,
+    borderWidth = 2,
+    borderRadius = 0,
     styles = '',
     color = 'rgba(111,148,182,0.1)',
   } = options;
@@ -18,6 +20,8 @@ const startEffect = (el: HTMLElement, options: EffectOptions) => {
   const effectElement = document.createElement('div');
   effectElement.style.cssText = `
     --effect-color: ${color};
+    --border-width: ${borderWidth}px;
+    border-radius: ${borderRadius}px;
     position: absolute;
     top: 0;
     left: 0;
@@ -40,7 +44,7 @@ export const createEffectDirective = (localOptions?: EffectOptions): Directive =
         ...globalOptions.get(),
         ...localOptions,
         ...options,
-      };
+      } satisfies EffectOptions;
       event = () => startEffect(el, allOptions);
       eventNames = allOptions.events || ['touchstart', 'mousedown'];
       eventNames.forEach((eventName) => el.addEventListener(eventName, event));
