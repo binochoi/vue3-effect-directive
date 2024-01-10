@@ -17,7 +17,7 @@ jobs:
       contents: write
     timeout-minutes: 8
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         token: ${{ secrets.PAT }}
     - uses: actions/setup-node@v3
