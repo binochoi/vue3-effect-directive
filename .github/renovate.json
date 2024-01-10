@@ -1,0 +1,18 @@
+{
+    "dependencyDashboard": true,
+    "lockFileMaintenance": {
+        "enabled": true
+    },
+    "packageRules": [
+        {
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["lint", "prettier"],
+            "automerge": true
+        },
+        {
+            "matchUpdateTypes": ["major", "minor", "patch"],
+            "automerge": true
+        }
+    ],
+    "platformAutomerge": true
+}
