@@ -4,5 +4,5 @@ import '../assets/animations/jelena.css';
 export const vJelena = createEffectDirective({
   key: 'jelena',
   duration: 300,
-  styles: 'border: 2px solid var(--effect-color);',
+  styles: 'border: var(--border-width) solid var(--effect-color);',
 });
