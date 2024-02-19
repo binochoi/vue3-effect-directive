@@ -15,7 +15,7 @@
     "docs:preview": "vitepress preview config"
   },
   "dependencies": {
-    "vitepress": "1.0.0-rc.43"
+    "vitepress": "1.0.0-rc.44"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",
