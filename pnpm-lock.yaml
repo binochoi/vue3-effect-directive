@@ -10,17 +10,17 @@ importers:
     dependencies:
       vitepress:
         specifier: 1.2.3
-        version: 1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.6)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5)
+        version: 1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.7)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5)
     devDependencies:
       '@types/node':
         specifier: ^20.10.4
-        version: 20.14.6
+        version: 20.14.7
       vite:
         specifier: ^5.0.10
-        version: 5.3.1(@types/node@20.14.6)
+        version: 5.3.1(@types/node@20.14.7)
       vite-plugin-dts:
         specifier: ^3.6.4
-        version: 3.9.1(@types/node@20.14.6)(rollup@4.18.0)(typescript@5.4.5)(vite@5.3.1(@types/node@20.14.6))
+        version: 3.9.1(@types/node@20.14.7)(rollup@4.18.0)(typescript@5.4.5)(vite@5.3.1(@types/node@20.14.7))
       vue:
         specifier: ^3.3.12
         version: 3.4.28(typescript@5.4.5)
@@ -436,8 +436,8 @@ packages:
   '@types/mdurl@2.0.0':
     resolution: {integrity: sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg==}
 
-  '@types/node@20.14.6':
-    resolution: {integrity: sha512-JbA0XIJPL1IiNnU7PFxDXyfAwcwVVrOoqyzzyQTyMeVhBzkJVMSkC1LlVsRQ2lpqiY4n6Bb9oCS6lzDKVQxbZw==}
+  '@types/node@20.14.7':
+    resolution: {integrity: sha512-uTr2m2IbJJucF3KUxgnGOZvYbN0QgkGyWxG6973HCpMYFy2KfcgYuIwkJQMQkt1VbBMlvWRbpshFTLxnxCZjKQ==}
 
   '@types/web-bluetooth@0.0.20':
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
@@ -1174,23 +1174,23 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.4.15': {}
 
-  '@microsoft/api-extractor-model@7.28.13(@types/node@20.14.6)':
+  '@microsoft/api-extractor-model@7.28.13(@types/node@20.14.7)':
     dependencies:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 4.0.2(@types/node@20.14.6)
+      '@rushstack/node-core-library': 4.0.2(@types/node@20.14.7)
     transitivePeerDependencies:
       - '@types/node'
 
-  '@microsoft/api-extractor@7.43.0(@types/node@20.14.6)':
+  '@microsoft/api-extractor@7.43.0(@types/node@20.14.7)':
     dependencies:
-      '@microsoft/api-extractor-model': 7.28.13(@types/node@20.14.6)
+      '@microsoft/api-extractor-model': 7.28.13(@types/node@20.14.7)
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 4.0.2(@types/node@20.14.6)
+      '@rushstack/node-core-library': 4.0.2(@types/node@20.14.7)
       '@rushstack/rig-package': 0.5.2
-      '@rushstack/terminal': 0.10.0(@types/node@20.14.6)
-      '@rushstack/ts-command-line': 4.19.1(@types/node@20.14.6)
+      '@rushstack/terminal': 0.10.0(@types/node@20.14.7)
+      '@rushstack/ts-command-line': 4.19.1(@types/node@20.14.7)
       lodash: 4.17.21
       minimatch: 3.0.8
       resolve: 1.22.8
@@ -1265,7 +1265,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
 
-  '@rushstack/node-core-library@4.0.2(@types/node@20.14.6)':
+  '@rushstack/node-core-library@4.0.2(@types/node@20.14.7)':
     dependencies:
       fs-extra: 7.0.1
       import-lazy: 4.0.0
@@ -1274,23 +1274,23 @@ snapshots:
       semver: 7.5.4
       z-schema: 5.0.5
     optionalDependencies:
-      '@types/node': 20.14.6
+      '@types/node': 20.14.7
 
   '@rushstack/rig-package@0.5.2':
     dependencies:
       resolve: 1.22.8
       strip-json-comments: 3.1.1
 
-  '@rushstack/terminal@0.10.0(@types/node@20.14.6)':
+  '@rushstack/terminal@0.10.0(@types/node@20.14.7)':
     dependencies:
-      '@rushstack/node-core-library': 4.0.2(@types/node@20.14.6)
+      '@rushstack/node-core-library': 4.0.2(@types/node@20.14.7)
       supports-color: 8.1.1
     optionalDependencies:
-      '@types/node': 20.14.6
+      '@types/node': 20.14.7
 
-  '@rushstack/ts-command-line@4.19.1(@types/node@20.14.6)':
+  '@rushstack/ts-command-line@4.19.1(@types/node@20.14.7)':
     dependencies:
-      '@rushstack/terminal': 0.10.0(@types/node@20.14.6)
+      '@rushstack/terminal': 0.10.0(@types/node@20.14.7)
       '@types/argparse': 1.0.38
       argparse: 1.0.10
       string-argv: 0.3.2
@@ -1316,15 +1316,15 @@ snapshots:
 
   '@types/mdurl@2.0.0': {}
 
-  '@types/node@20.14.6':
+  '@types/node@20.14.7':
     dependencies:
       undici-types: 5.26.5
 
   '@types/web-bluetooth@0.0.20': {}
 
-  '@vitejs/plugin-vue@5.0.5(vite@5.3.1(@types/node@20.14.6))(vue@3.4.28(typescript@5.4.5))':
+  '@vitejs/plugin-vue@5.0.5(vite@5.3.1(@types/node@20.14.7))(vue@3.4.28(typescript@5.4.5))':
     dependencies:
-      vite: 5.3.1(@types/node@20.14.6)
+      vite: 5.3.1(@types/node@20.14.7)
       vue: 3.4.28(typescript@5.4.5)
 
   '@volar/language-core@1.11.1':
@@ -1755,9 +1755,9 @@ snapshots:
 
   validator@13.11.0: {}
 
-  vite-plugin-dts@3.9.1(@types/node@20.14.6)(rollup@4.18.0)(typescript@5.4.5)(vite@5.3.1(@types/node@20.14.6)):
+  vite-plugin-dts@3.9.1(@types/node@20.14.7)(rollup@4.18.0)(typescript@5.4.5)(vite@5.3.1(@types/node@20.14.7)):
     dependencies:
-      '@microsoft/api-extractor': 7.43.0(@types/node@20.14.6)
+      '@microsoft/api-extractor': 7.43.0(@types/node@20.14.7)
       '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
       '@vue/language-core': 1.8.27(typescript@5.4.5)
       debug: 4.3.4
@@ -1766,29 +1766,29 @@ snapshots:
       typescript: 5.4.5
       vue-tsc: 1.8.27(typescript@5.4.5)
     optionalDependencies:
-      vite: 5.3.1(@types/node@20.14.6)
+      vite: 5.3.1(@types/node@20.14.7)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@5.3.1(@types/node@20.14.6):
+  vite@5.3.1(@types/node@20.14.7):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.38
       rollup: 4.18.0
     optionalDependencies:
-      '@types/node': 20.14.6
+      '@types/node': 20.14.7
       fsevents: 2.3.3
 
-  vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.6)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5):
+  vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.7)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.23.3)(search-insights@2.13.0)
       '@shikijs/core': 1.6.2
       '@shikijs/transformers': 1.6.2
       '@types/markdown-it': 14.1.1
-      '@vitejs/plugin-vue': 5.0.5(vite@5.3.1(@types/node@20.14.6))(vue@3.4.28(typescript@5.4.5))
+      '@vitejs/plugin-vue': 5.0.5(vite@5.3.1(@types/node@20.14.7))(vue@3.4.28(typescript@5.4.5))
       '@vue/devtools-api': 7.2.1(vue@3.4.28(typescript@5.4.5))
       '@vue/shared': 3.4.27
       '@vueuse/core': 10.10.0(vue@3.4.28(typescript@5.4.5))
@@ -1797,7 +1797,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 6.3.0
       shiki: 1.6.2
-      vite: 5.3.1(@types/node@20.14.6)
+      vite: 5.3.1(@types/node@20.14.7)
       vue: 3.4.28(typescript@5.4.5)
     optionalDependencies:
       postcss: 8.4.38
