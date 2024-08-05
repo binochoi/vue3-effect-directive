@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       vitepress:
-        specifier: 1.3.1
-        version: 1.3.1(@algolia/client-search@4.23.3)(@types/node@22.0.2)(postcss@8.4.40)(search-insights@2.13.0)(typescript@5.4.5)
+        specifier: 1.3.2
+        version: 1.3.2(@algolia/client-search@4.23.3)(@types/node@22.0.2)(postcss@8.4.40)(search-insights@2.13.0)(typescript@5.4.5)
     devDependencies:
       '@types/node':
         specifier: ^22.0.0
@@ -530,9 +530,6 @@ packages:
     peerDependencies:
       vue: 3.4.35
 
-  '@vue/shared@3.4.31':
-    resolution: {integrity: sha512-Yp3wtJk//8cO4NItOPpi3QkLExAr/aLBGZMmTtW9WpdwBCJpRM6zj9WgWktXAl8IDIozwNMByT45JP3tO3ACWA==}
-
   '@vue/shared@3.4.35':
     resolution: {integrity: sha512-hvuhBYYDe+b1G8KHxsQ0diDqDMA8D9laxWZhNAjE83VZb5UDaXl9Xnz7cGdDSyiHM90qqI/CyGMcpBpiDy6VVQ==}
 
@@ -921,8 +918,8 @@ packages:
       terser:
         optional: true
 
-  vitepress@1.3.1:
-    resolution: {integrity: sha512-soZDpg2rRVJNIM/IYMNDPPr+zTHDA5RbLDHAxacRu+Q9iZ2GwSR0QSUlLs+aEZTkG0SOX1dc8RmUYwyuxK8dfQ==}
+  vitepress@1.3.2:
+    resolution: {integrity: sha512-6gvecsCuR6b1Cid4w19KQiQ02qkpgzFRqiG0v1ZBekGkrZCzsxdDD5y4WH82HRXAOhU4iZIpzA1CsWqs719rqA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -1492,8 +1489,6 @@ snapshots:
       '@vue/shared': 3.4.35
       vue: 3.4.35(typescript@5.4.5)
 
-  '@vue/shared@3.4.31': {}
-
   '@vue/shared@3.4.35': {}
 
   '@vueuse/core@10.11.0(vue@3.4.35(typescript@5.4.5))':
@@ -1839,7 +1834,7 @@ snapshots:
       '@types/node': 22.0.2
       fsevents: 2.3.3
 
-  vitepress@1.3.1(@algolia/client-search@4.23.3)(@types/node@22.0.2)(postcss@8.4.40)(search-insights@2.13.0)(typescript@5.4.5):
+  vitepress@1.3.2(@algolia/client-search@4.23.3)(@types/node@22.0.2)(postcss@8.4.40)(search-insights@2.13.0)(typescript@5.4.5):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.23.3)(search-insights@2.13.0)
@@ -1848,7 +1843,7 @@ snapshots:
       '@types/markdown-it': 14.1.1
       '@vitejs/plugin-vue': 5.0.5(vite@5.3.5(@types/node@22.0.2))(vue@3.4.35(typescript@5.4.5))
       '@vue/devtools-api': 7.3.5
-      '@vue/shared': 3.4.31
+      '@vue/shared': 3.4.35
       '@vueuse/core': 10.11.0(vue@3.4.35(typescript@5.4.5))
       '@vueuse/integrations': 10.11.0(focus-trap@7.5.4)(vue@3.4.35(typescript@5.4.5))
       focus-trap: 7.5.4
