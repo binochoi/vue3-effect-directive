@@ -20,7 +20,7 @@ importers:
         version: 5.3.5(@types/node@22.0.2)
       vite-plugin-dts:
         specifier: ^4.0.0
-        version: 4.0.0(@types/node@22.0.2)(rollup@4.19.0)(typescript@5.4.5)(vite@5.3.5(@types/node@22.0.2))
+        version: 4.0.1(@types/node@22.0.2)(rollup@4.19.0)(typescript@5.4.5)(vite@5.3.5(@types/node@22.0.2))
       vue:
         specifier: ^3.3.12
         version: 3.4.36(typescript@5.4.5)
@@ -703,8 +703,9 @@ packages:
     resolution: {integrity: sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==}
     engines: {node: '>=8'}
 
-  is-core-module@2.13.1:
-    resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
+  is-core-module@2.15.0:
+    resolution: {integrity: sha512-Dd+Lb2/zvk9SKy1TGCt1wFJFo/MWBPMX5x7KcvLajWTGuomczdQX61PvY5yK6SVACwpoexWo81IfFyoKY2QnTA==}
+    engines: {node: '>= 0.4'}
 
   is-what@4.1.16:
     resolution: {integrity: sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==}
@@ -900,8 +901,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite-plugin-dts@4.0.0:
-    resolution: {integrity: sha512-MOGyecSNqXGxExPfDYtsH3cFted5UA04BP3JdI05i2BQRJmgjKeeUn6ymAWnEpZ6UY88Xd1n1NDmkO9q7YB5vA==}
+  vite-plugin-dts@4.0.1:
+    resolution: {integrity: sha512-JFbAKMjJdJbeXJVwQNoi8M26lP+5Ene4/ryv9w0Z7Ca5N0DdxYEak9V3C0tqwHO7WZ9JLbwMsuUZOqYIyBRwSQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -1653,7 +1654,7 @@ snapshots:
 
   import-lazy@4.0.0: {}
 
-  is-core-module@2.13.1:
+  is-core-module@2.15.0:
     dependencies:
       hasown: 2.0.2
 
@@ -1749,7 +1750,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.15.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -1830,7 +1831,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-plugin-dts@4.0.0(@types/node@22.0.2)(rollup@4.19.0)(typescript@5.4.5)(vite@5.3.5(@types/node@22.0.2)):
+  vite-plugin-dts@4.0.1(@types/node@22.0.2)(rollup@4.19.0)(typescript@5.4.5)(vite@5.3.5(@types/node@22.0.2)):
     dependencies:
       '@microsoft/api-extractor': 7.47.4(@types/node@22.0.2)
       '@rollup/pluginutils': 5.1.0(rollup@4.19.0)
