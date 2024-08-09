@@ -20,7 +20,7 @@ importers:
         version: 5.4.0(@types/node@22.0.2)
       vite-plugin-dts:
         specifier: ^4.0.0
-        version: 4.0.1(@types/node@22.0.2)(rollup@4.20.0)(typescript@5.4.5)(vite@5.4.0(@types/node@22.0.2))
+        version: 4.0.2(@types/node@22.0.2)(rollup@4.20.0)(typescript@5.4.5)(vite@5.4.0(@types/node@22.0.2))
       vue:
         specifier: ^3.3.12
         version: 3.4.37(typescript@5.4.5)
@@ -897,8 +897,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite-plugin-dts@4.0.1:
-    resolution: {integrity: sha512-JFbAKMjJdJbeXJVwQNoi8M26lP+5Ene4/ryv9w0Z7Ca5N0DdxYEak9V3C0tqwHO7WZ9JLbwMsuUZOqYIyBRwSQ==}
+  vite-plugin-dts@4.0.2:
+    resolution: {integrity: sha512-Ni3EPG8yeLc5ivEzT4szreJ0rXpEQgvdYq3PaZ7OMoHc8uET4/HRUfzVPejJaUAojbxsKgaZbp6Zgm41sxb86Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -1824,7 +1824,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-plugin-dts@4.0.1(@types/node@22.0.2)(rollup@4.20.0)(typescript@5.4.5)(vite@5.4.0(@types/node@22.0.2)):
+  vite-plugin-dts@4.0.2(@types/node@22.0.2)(rollup@4.20.0)(typescript@5.4.5)(vite@5.4.0(@types/node@22.0.2)):
     dependencies:
       '@microsoft/api-extractor': 7.47.4(@types/node@22.0.2)
       '@rollup/pluginutils': 5.1.0(rollup@4.20.0)
