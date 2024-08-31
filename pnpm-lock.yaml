@@ -26,7 +26,7 @@ importers:
         version: 3.4.38(typescript@5.4.5)
       vue-tsc:
         specifier: ^2.0.0
-        version: 2.1.2(typescript@5.4.5)
+        version: 2.1.5(typescript@5.4.5)
 
 packages:
 
@@ -505,8 +505,9 @@ packages:
       typescript:
         optional: true
 
-  '@vue/language-core@2.1.2':
-    resolution: {integrity: sha512-tt2J7C+l0J/T5PaLhJ0jvCCi0JNwu3e8azWTYxW3jmAW5B/dac0g5UxmI7l59CQgCGFotqUqI3tXjfZgoWNtog==}
+  '@vue/language-core@2.1.5':
+    resolution: {integrity: sha512-YwF5+2v+rnue2/17wP84tnZgaB2hUM4C1U+115vVGrDAPGhBf7YG0nPv1SO0yUeEpYMYtED4ClamkXAwpoz2Yw==}
+    deprecated: use 2.1.4 instead
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -975,8 +976,9 @@ packages:
     peerDependencies:
       typescript: '>=5.0.0'
 
-  vue-tsc@2.1.2:
-    resolution: {integrity: sha512-PH1BDxWT3eaPhl73elyZj6DV0nR3K4IFoUM1sGzMXXQneovVUwHQytdSyAHiED5MtEINGSHpL/Hs9ch+c/tDTw==}
+  vue-tsc@2.1.5:
+    resolution: {integrity: sha512-r4uljp8HQkGXPnNHR0qKkoE/g5OYYycr9Kfblxg0pLaPAxVr7SU/wmYhD7Y/ETApDl4+ZwvgFgn3RTOE7Xgy0Q==}
+    deprecated: use 2.1.4 instead
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1469,7 +1471,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.4.5
 
-  '@vue/language-core@2.1.2(typescript@5.4.5)':
+  '@vue/language-core@2.1.5(typescript@5.4.5)':
     dependencies:
       '@volar/language-core': 2.4.1
       '@vue/compiler-dom': 3.4.38
@@ -1936,10 +1938,10 @@ snapshots:
       semver: 7.6.3
       typescript: 5.4.5
 
-  vue-tsc@2.1.2(typescript@5.4.5):
+  vue-tsc@2.1.5(typescript@5.4.5):
     dependencies:
       '@volar/typescript': 2.4.1
-      '@vue/language-core': 2.1.2(typescript@5.4.5)
+      '@vue/language-core': 2.1.5(typescript@5.4.5)
       semver: 7.6.3
       typescript: 5.4.5
 
