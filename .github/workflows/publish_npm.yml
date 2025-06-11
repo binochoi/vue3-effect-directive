@@ -39,7 +39,7 @@ jobs:
     - name: auto version update
       run: |
         npm version patch
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - uses: stefanzweifel/git-auto-commit-action@v6
       with:
         commit_author: Actions Bot <actions@github.com>
         commit_message: 'chore(package.json): update version'
