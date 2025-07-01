@@ -22,7 +22,7 @@
     "vite": "^7.0.0",
     "vite-plugin-dts": "^4.0.0",
     "vue": "^3.3.12",
-    "vue-tsc": "^2.0.0"
+    "vue-tsc": "^3.0.0"
   },
   "repository": {
     "type": "git",
