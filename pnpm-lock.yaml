@@ -17,10 +17,10 @@ importers:
         version: 24.0.10
       vite:
         specifier: ^7.0.0
-        version: 7.0.1(@types/node@24.0.10)
+        version: 7.0.2(@types/node@24.0.10)
       vite-plugin-dts:
         specifier: ^4.0.0
-        version: 4.5.4(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.2)(vite@7.0.1(@types/node@24.0.10))
+        version: 4.5.4(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.2)(vite@7.0.2(@types/node@24.0.10))
       vue:
         specifier: ^3.3.12
         version: 3.5.17(typescript@5.8.2)
@@ -1374,8 +1374,8 @@ packages:
       terser:
         optional: true
 
-  vite@7.0.1:
-    resolution: {integrity: sha512-BiKOQoW5HGR30E6JDeNsati6HnSPMVEKbkIWbCiol+xKeu3g5owrjy7kbk/QEMuzCV87dSUTvycYKmlcfGKq3Q==}
+  vite@7.0.2:
+    resolution: {integrity: sha512-hxdyZDY1CM6SNpKI4w4lcUc3Mtkd9ej4ECWVHSMrOdSinVc2zYOAppHeGc/hzmRo3pxM5blMzkuWHOJA/3NiFw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2707,7 +2707,7 @@ snapshots:
       '@types/unist': 3.0.2
       vfile-message: 4.0.2
 
-  vite-plugin-dts@4.5.4(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.2)(vite@7.0.1(@types/node@24.0.10)):
+  vite-plugin-dts@4.5.4(@types/node@24.0.10)(rollup@4.44.1)(typescript@5.8.2)(vite@7.0.2(@types/node@24.0.10)):
     dependencies:
       '@microsoft/api-extractor': 7.52.8(@types/node@24.0.10)
       '@rollup/pluginutils': 5.1.4(rollup@4.44.1)
@@ -2720,7 +2720,7 @@ snapshots:
       magic-string: 0.30.17
       typescript: 5.8.2
     optionalDependencies:
-      vite: 7.0.1(@types/node@24.0.10)
+      vite: 7.0.2(@types/node@24.0.10)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
@@ -2735,7 +2735,7 @@ snapshots:
       '@types/node': 24.0.10
       fsevents: 2.3.3
 
-  vite@7.0.1(@types/node@24.0.10):
+  vite@7.0.2(@types/node@24.0.10):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
