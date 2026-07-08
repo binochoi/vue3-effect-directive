@@ -20,13 +20,13 @@ importers:
         version: 8.1.3(@types/node@26.1.0)
       vite-plugin-dts:
         specifier: ^5.0.0
-        version: 5.0.3(@vue/language-core@3.3.6)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0))
+        version: 5.0.3(@vue/language-core@3.3.7)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0))
       vue:
         specifier: ^3.3.12
         version: 3.5.39(typescript@5.8.2)
       vue-tsc:
         specifier: ^3.0.0
-        version: 3.3.6(typescript@5.8.2)
+        version: 3.3.7(typescript@5.8.2)
 
 packages:
 
@@ -646,8 +646,8 @@ packages:
   '@vue/devtools-shared@7.7.0':
     resolution: {integrity: sha512-jtlQY26R5thQxW9YQTpXbI0HoK0Wf9Rd4ekidOkRvSy7ChfK0kIU6vvcBtjj87/EcpeOSK49fZAicaFNJcoTcQ==}
 
-  '@vue/language-core@3.3.6':
-    resolution: {integrity: sha512-LgBMZAy2sR3cQWknpyaxnI6yBkqDfLBPkbdhwRhQCvzfNJRQXPilgQIrdI/v4ytJ0sAq9bWhaPsjqBqneomJ3Q==}
+  '@vue/language-core@3.3.7':
+    resolution: {integrity: sha512-LzmkKinXAMMoh8Jfi/jMUSDUjuPdv8mynH5WJGKfXyZtDw3hQ6GBaoI6Bcnl/Xqlu32q/0Z6i/trp4VXykzyLw==}
 
   '@vue/reactivity@3.5.39':
     resolution: {integrity: sha512-TpsuBJ9gGlZa5d23XcM2y8EXanz9dZeVDQBXRwzy46ItgvM+rWpzs+UVM0wcRLxGvcav0HE5jz2gNL53xlRAog==}
@@ -1228,8 +1228,8 @@ packages:
   vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
 
-  vue-tsc@3.3.6:
-    resolution: {integrity: sha512-ERXGgbKSBGFUkavrJ1Iwj0ZVxKqB/5UOx65IXy7fPf2UsoI21n3ssQLwdvx8xyUGgJe9PvSZTM/FYzIdwUDPFA==}
+  vue-tsc@3.3.7:
+    resolution: {integrity: sha512-+C+rgD49wAQ5bUTl2sp5a8Bzg4YoldMNXM+g7CFe604MYcQ8PrZPMQhIjJSzKXtPBCa+C5ayMipqjbA7splekQ==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1777,7 +1777,7 @@ snapshots:
     dependencies:
       rfdc: 1.4.1
 
-  '@vue/language-core@3.3.6':
+  '@vue/language-core@3.3.7':
     dependencies:
       '@volar/language-core': 2.4.28
       '@vue/compiler-dom': 3.5.39
@@ -2249,7 +2249,7 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unplugin-dts@1.0.3(@vue/language-core@3.3.6)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0)):
+  unplugin-dts@1.0.3(@vue/language-core@3.3.7)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0)):
     dependencies:
       '@rollup/pluginutils': 5.4.0(rollup@4.52.3)
       '@volar/typescript': 2.4.28
@@ -2261,7 +2261,7 @@ snapshots:
       typescript: 5.8.2
       unplugin: 2.3.11
     optionalDependencies:
-      '@vue/language-core': 3.3.6
+      '@vue/language-core': 3.3.7
       rolldown: 1.1.4
       rollup: 4.52.3
       vite: 8.1.3(@types/node@26.1.0)
@@ -2285,9 +2285,9 @@ snapshots:
       '@types/unist': 3.0.2
       vfile-message: 4.0.2
 
-  vite-plugin-dts@5.0.3(@vue/language-core@3.3.6)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0)):
+  vite-plugin-dts@5.0.3(@vue/language-core@3.3.7)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0)):
     dependencies:
-      unplugin-dts: 1.0.3(@vue/language-core@3.3.6)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0))
+      unplugin-dts: 1.0.3(@vue/language-core@3.3.7)(rolldown@1.1.4)(rollup@4.52.3)(typescript@5.8.2)(vite@8.1.3(@types/node@26.1.0))
     optionalDependencies:
       rollup: 4.52.3
       vite: 8.1.3(@types/node@26.1.0)
@@ -2372,10 +2372,10 @@ snapshots:
 
   vscode-uri@3.1.0: {}
 
-  vue-tsc@3.3.6(typescript@5.8.2):
+  vue-tsc@3.3.7(typescript@5.8.2):
     dependencies:
       '@volar/typescript': 2.4.28
-      '@vue/language-core': 3.3.6
+      '@vue/language-core': 3.3.7
       typescript: 5.8.2
 
   vue@3.5.39(typescript@5.8.2):
